@@ -10,7 +10,7 @@ title Tensorflow-XLA-MLIR
 dateFormat  YYYY-MM-DD
 
 section App
-tf mnist training : task1, 2022-07-25, 7d
+tf rn50 training : task1, 2022-07-25, 7d
 
 section XLA
 xla hlo semantic : task2, after task1, 10d
@@ -28,7 +28,7 @@ MLIR Toy Tutorial : task5, after task4, 7d
 Task:
 
 * 安装 Anaconda + Tensorflow115-gpu。
-* 使用Tensorflow构建MNIST模型，并且进行训练。
+* 使用Tensorflow构建RN50模型，并且进行训练。
 * 将模型加载到XLA-CPU或者XLA-GPU上，并且dump xla hlo graph
 * 学习 [XLA算子语义](https://www.tensorflow.org/xla/operation_semantics)
 * 理解静态模型
