@@ -5,7 +5,11 @@
 ## 1. 模型的分类
 
 * CV类模型
-  * Resnet50
+  * [Resnet50](https://github.com/NVIDIA/DeepLearningExamples/tree/master/TensorFlow/Classification/ConvNets/resnet50v1.5)
+    * 阅读并理解代码
+    * 在单卡环境（1 GPU）上使能AMP，观察计算图的变化（PB）
+    * 在单卡环境（1 GPU）上使能XLA，观察计算图的变化（PB、HLO）
+    * 在单卡环境（1 GPU）上使能TF32，测试性能的改善。
   * Yolo-v5
   * (请查阅资料后补齐)
 * NLP类模型
