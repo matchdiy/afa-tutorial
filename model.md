@@ -51,5 +51,4 @@
 
  * [Model Zoon](https://github.com/onnx/models)
  * 下载 NETRON 工具，使用它来查看一个ONNX模型结构
-
- * VGG-16
+ * Resnet50-v1.5
